@@ -14,7 +14,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn import metrics
 
 st.sidebar.header("""
-© Harvinder Power
+© MammoPredict
 # Input Parameters""")
 
 classificationModel = st.sidebar.selectbox("Model", ["Random Forest Classifier", "GaussianNB", "K Nearest Neighbours", "Decision Tree Classifier"])
